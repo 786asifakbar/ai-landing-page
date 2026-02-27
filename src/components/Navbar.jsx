@@ -18,7 +18,7 @@ const Navbar = () => {
   }, [dark]);
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-lg bg-white dark:bg-white border-b border-gray-200 transition-all duration-500">
+    <nav className="sticky top-0 z-50 backdrop-blur-lg bg-white dark:bg-gray-900 border-b border-gray-200 transition-all duration-500">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* Logo */}
@@ -28,13 +28,13 @@ const Navbar = () => {
             alt="Logo"
             className="w-8 h-8"
           />
-          <span className="text-xl font-bold text-gray-900">
+          <span className="text-xl font-bold text-gray-100">
             AI Startup
           </span>
         </div>
 
         {/* Links (Desktop) */}
-        <div className="hidden md:flex space-x-6 text-gray-700">
+        <div className="hidden md:flex space-x-6 text-gray-100">
           <a href="#features">Features</a>
           <a href="#pricing">Pricing</a>
           <a href="#faq">FAQ</a>
@@ -54,7 +54,7 @@ const Navbar = () => {
               transition-transform duration-300
               hover:scale-110
               active:scale-95
-              bg-white
+              bg-dark ? 'bg-gray-800' : 'bg-white'
             "
           >
             {dark ? (
