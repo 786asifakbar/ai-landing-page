@@ -1,16 +1,108 @@
-# React + Vite
+# ⭐ Thank You for Purchasing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+If you like this template, please leave a review.
+It helps a lot ❤️
 
-Currently, two official plugins are available:
+# 🚀 AI Startup Landing Page Template
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Premium Silicon Valley Style SaaS Landing Page
+Built with **React + Vite + TailwindCSS**
 
-## React Compiler
+## 📦 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React 18+
+* Vite
+* TailwindCSS
+* Modern Component Structure
+* Fully Responsive
+* Glassmorphism + 3D UI Effects
 
-## Expanding the ESLint configuration
+# 🛠 Installation Guide
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps carefully:
+
+## 1️⃣ Extract Project
+
+Download the ZIP file and extract it.
+
+Open the project folder in:
+
+VS Code
+
+## 2️⃣ Install Dependencies
+
+Open terminal inside project folder and run:
+
+```bash
+npm install
+```
+Wait until installation completes.
+
+## 3️⃣ Install Tailwind (If Needed)
+
+If Tailwind is not installed, run:
+
+```bash
+npm install -D tailwindcss @tailwindcss/vite
+```
+## 4️⃣ Start Development Server
+
+Run:
+
+```bash
+npm run dev
+```
+You will see output like:
+
+```
+Local: http://localhost:5173/
+```
+
+Open that URL in your browser.
+
+🎉 Your AI Landing Page will be live!
+
+
+# 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── page/
+ ├── App.jsx
+ ├── main.jsx
+```
+You can edit content inside:
+
+```
+src/page/
+```
+
+# 🎨 Customization Guide
+
+### Change Colors
+Open:
+
+tailwind.config.js
+```
+
+Modify primary and accent colors.
+
+Change Text Content
+
+Edit text inside:
+
+src/components/
+```
+Each file is separated for easy editing.
+
+You are NOT allowed to:
+
+❌ Resell this template as-is
+❌ Share source code publicly
+
+# 🤝 Support
+
+If you face any issue:
+
+Contact via Gumroad message.
